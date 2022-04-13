@@ -1,0 +1,9 @@
+#ifndef __DELAY_H
+#define __DELAY_H
+
+void Delay_us(unsigned long nus);
+void Delay_ms(unsigned short nms);
+void Systic_Init(void);
+
+#endif
+
